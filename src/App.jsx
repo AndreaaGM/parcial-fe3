@@ -1,17 +1,14 @@
+import React from 'react';
+import Form from './Component/Form';
 
-import './App.css'
-import Card from './Component/Card'
 
 function App() {
- 
-
   return (
-    <>
-      <h1>Carga de estudiantes</h1>
-      <form action=""></form>
-      <Card/>
-    </>
-  )
+    <div>
+      <h1>Cual es tu animal favorito</h1>
+      <Form />
+    </div>
+  );
 }
 
-export default App
+export default App;
